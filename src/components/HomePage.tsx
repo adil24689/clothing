@@ -7,7 +7,7 @@ import { Badge } from './ui/badge';
 import { Input } from './ui/input';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { mockProducts, categories, brands, testimonials, banners } from '../data/mockData';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function HomePage() {
   const { state, dispatch } = useApp();

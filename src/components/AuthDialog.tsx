@@ -8,7 +8,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { LoadingSpinner } from './LoadingSpinner';
 import { useAuth } from '../hooks/useAuth';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface AuthDialogProps {
   open: boolean;

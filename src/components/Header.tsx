@@ -15,7 +15,7 @@ import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { AuthDialog } from './AuthDialog';
 import { categories } from '../data/mockData';
 import { useAuth } from '../hooks/useAuth';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function Header() {
   const { state, dispatch } = useApp();
